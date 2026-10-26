@@ -1,0 +1,32 @@
+{
+  "status": "SUCCESS",
+  "run_id": "20261025T160102-15f12a",
+  "dependency_hash": "87022b34467e82568f1b8d8caaa061e9343c37947e12ef1f8468b330810d8e25",
+  "versions": {
+    "dim_zone": 0,
+    "bronze": 2,
+    "silver": 2,
+    "quarantine": 2,
+    "gold_hourly": 0,
+    "gold_daily": 0,
+    "dim_hour": 0
+  },
+  "model_id": "aa0faee5b6a04b0f",
+  "files": {
+    "bi_filter_checks.json": "9fa5361c9743c39161de97bb27d91fb90bd01d615eb3f3f6cb2508ca415228b9",
+    "dim_hour.csv": "47def9f21f55728ab093f2b86e6f6ae302a09df3b93bf605271f8f90dc2e9fe7",
+    "dim_zone.csv": "59f8f4e23c185eaa6ad6747065c656704857e8f5507e00778394be152e971886",
+    "error_slices.csv": "86ca8cb878e41e66deaf5b1d0377fd58c53228025d2b85bd1e083bb95e50157c",
+    "fact_zone_daily.csv": "1d59d3a85b0100925f51daa55cea4b09ba14601b11583f0ff52477149032b44e",
+    "fact_zone_hourly.csv": "6ad6c67fd0d1f74573adea976de51ac3383cbffcf42fca8577405b08b4577f10",
+    "forecast.png": "38b851a8ce5e9560c1caacec22431e578b2f77270d875320aec4310596155c0e",
+    "forecast_comparison.csv": "54d31378dc5211c6cc0c96634235f8fcf045b13a2bf37e6fb93396a57f4eb7a8",
+    "largest_errors.csv": "ddae101548faeab236b1a8732cb43bbd9dc78f1bac772c5812619de6b0f8f67d",
+    "metrics.json": "b3392d2090d430562d04b8f60318f5cec56f2e76bdc9c3df5e81e036765a7e18",
+    "model_card.md": "88415af8b449031cb52fe0147da985862137f68f54928b43a179de9af9d9a15e",
+    "model_selection.json": "8c28158ce6519585f011bc8ec615a7c25fb44663dca916640150820403d923a4",
+    "operations.png": "1797a24ac6380e47fee476efd19ca82f1c6a70c37562981d1bee2a05d8a1cebe",
+    "quality_summary.csv": "1e2e9ea74d6adb13411a3315b8b718475f3f201eb2db83041111dbd61723508a",
+    "report.md": "90b05209c3bb9e3dbbc7d0601212135134a1fad64cb706edf93640cbd5addf9a"
+  }
+}

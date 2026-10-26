@@ -1,0 +1,4 @@
+zone_id,hour_key,local_date,local_hour,weekday,weekend,baseline_pred,dst_fallback,candidate_pred,actual,peak,selected_method,model_id,split,baseline_abs_error,candidate_abs_error,selected_pred,week
+142,475107,2024-03-13,23,2,0,113.0,0,423.51028550430476,97,False,candidate,aa0faee5b6a04b0f,test,16.0,326.51028550430476,423.51028550430476,11
+142,474987,2024-03-08,22,4,0,566.0,0,362.27525106507017,661,True,candidate,aa0faee5b6a04b0f,test,95.0,298.72474893492983,362.27525106507017,10
+186,475132,2024-03-15,0,4,0,87.0,0,106.910079922078,362,True,candidate,aa0faee5b6a04b0f,test,275.0,255.089920077922,106.910079922078,11

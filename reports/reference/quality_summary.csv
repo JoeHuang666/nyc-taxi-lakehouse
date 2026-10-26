@@ -1,0 +1,4 @@
+source_month,raw_count,silver_count,quarantine_count,quarantine_rate,identical_extra_rows,negative_fare,missing_passengers,invalid_distance,invalid_dropoff,reasons.invalid_nyc_zone,reasons.outside_source_month
+2024-01,2964624,2952293,12331,0.004159380751150905,0,35318,139711,58580,8,12313,18
+2024-02,3007526,2996131,11395,0.0037888284257559203,1,35919,185430,66546,7,11380,15
+2024-03,3582628,3568585,14043,0.0039197482965018975,0,44080,425497,85048,20,14020,23

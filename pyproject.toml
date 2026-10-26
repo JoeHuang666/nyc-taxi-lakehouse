@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nyc-taxi-lakehouse"
+version = "0.1.0"
+requires-python = ">=3.11,<3.12"
+description = "Local Delta lakehouse and leakage-tested hourly taxi forecasting"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+markers = ["spark: requires a host Spark JVM and local filesystem permissions"]

@@ -1,0 +1,27 @@
+flowchart TD
+    SRC[Official TLC monthly Parquet + zone CSV] --> DL[Download + SHA-256 validation]
+    DL --> RAW[Immutable raw snapshots]
+    RAW --> B[Bronze Delta: source rows + provenance]
+    B --> CL[PySpark cleanup + zone lookup]
+    CL --> S[Silver Delta: eligible pickups + flags]
+    CL --> Q[Quarantine: reasons + counts]
+    S --> G[Gold Delta: zone-hour + zone-day]
+    G --> FE[Spark SQL: past-only lags + rolling features]
+    FE --> DS[Bounded panel: ten January-selected zones]
+    DS --> TR[Chronological training + validation]
+    TR --> M[Frozen baseline + candidate model]
+    DS --> RE[March hourly historical replay]
+    M --> RE
+    RE --> EV[Metrics + error slices]
+    G --> EX[Versioned release exports]
+    EV --> EX
+    EX --> BI[Power BI: operations + forecast evaluation]
+    CFG[Configuration + source contracts] -.-> DL
+    CFG -.-> CL
+    CFG -.-> FE
+    CLI[Python CLI + writer lock] -.-> CL
+    CLI -.-> TR
+    DQ[Quality gates + run manifest] -.-> B
+    DQ -.-> S
+    DQ -.-> G
+    DQ -.-> EX

@@ -1,0 +1,30 @@
+# Runtime data and local environment
+/data/
+/downloads/
+/artifacts/
+/runs/
+/releases/
+/.runtime/
+/.venv/
+/current_release.json
+/.writer.lock
+*.log
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.egg-info/
+/build/
+/dist/
+.env
+.env.*
+!.env.example
+# Generated Power BI projects contain local source paths and caches.
+/dashboard/*
+!/dashboard/README.md
+**/.pbi/
+*.pbix
+# Only the curated reference evidence belongs in Git.
+/reports/*
+!/reports/reference/
+.DS_Store
+Thumbs.db

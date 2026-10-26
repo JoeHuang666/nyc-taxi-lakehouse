@@ -1,0 +1,38 @@
+[
+  {
+    "zone_id": 132,
+    "local_hour": 9,
+    "baseline": {
+      "n": 31,
+      "mae": 24.225806451612904,
+      "wape": 0.19857218402961396,
+      "actual_total": 3782.0,
+      "absolute_error_total": 751.0
+    },
+    "candidate": {
+      "n": 31,
+      "mae": 23.71162889012297,
+      "wape": 0.19435761385346698,
+      "actual_total": 3782.0,
+      "absolute_error_total": 735.0604955938121
+    }
+  },
+  {
+    "zone_id": 239,
+    "local_hour": 18,
+    "baseline": {
+      "n": 31,
+      "mae": 42.806451612903224,
+      "wape": 0.18705948689032986,
+      "actual_total": 7094.0,
+      "absolute_error_total": 1327.0
+    },
+    "candidate": {
+      "n": 31,
+      "mae": 27.581252802721743,
+      "wape": 0.12052704213199521,
+      "actual_total": 7094.0,
+      "absolute_error_total": 855.018836884374
+    }
+  }
+]

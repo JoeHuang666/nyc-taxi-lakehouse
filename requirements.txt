@@ -1,0 +1,12 @@
+# Direct dependencies used by the validated local environment.
+# See requirements.lock.txt for its complete package snapshot.
+pyspark==3.5.7
+delta-spark==3.3.2
+pandas==2.2.3
+pyarrow==21.0.0
+numpy==1.26.4
+scikit-learn==1.7.2
+matplotlib==3.11.2
+PyYAML==6.0.3
+tzdata==2026.5
+pytest==8.4.2

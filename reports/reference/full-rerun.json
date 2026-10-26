@@ -1,0 +1,20 @@
+{
+  "status": "SUCCESS",
+  "elapsed_seconds": 149.1747073000006,
+  "published_release_unchanged": "20261025T160102-15f12a",
+  "quality_identical": true,
+  "tables": {
+    "gold_hourly": {
+      "row_count": 571946,
+      "exact_multiset_equal": true,
+      "before_version": 0,
+      "after_version": 1
+    },
+    "gold_daily": {
+      "row_count": 20355,
+      "exact_multiset_equal": true,
+      "before_version": 0,
+      "after_version": 1
+    }
+  }
+}

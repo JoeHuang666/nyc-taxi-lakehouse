@@ -1,0 +1,10 @@
+months: ["2024-01", "2024-02", "2024-03"]
+timezone: America/New_York
+spark:
+  master: local[4]
+  driver_memory: 6g
+  shuffle_partitions: 16
+quarantine_limit: 0.05
+sample_rows: 10000
+seed: 42
+top_zones: 10
