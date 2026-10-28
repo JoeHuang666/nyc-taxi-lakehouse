@@ -153,8 +153,10 @@ report edits, so save a copy before regenerating. See [dashboard instructions](d
 Pickup counts represent recorded trips, not unmet demand. The model assumes prior-hour
 counts would be available at each forecast boundary; TLC's monthly files are not a live
 feed. Better historical accuracy does not prove revenue or waiting-time improvement.
-No cloud, multi-node execution, clean-machine setup, or end-to-end failure injection has
-been validated. Spark temporary JAR cleanup warnings remain on the original Windows host.
+Fresh Ubuntu dependency installation and all 12 tests passed in
+[GitHub Actions](https://github.com/JoeHuang666/nyc-taxi-lakehouse/actions/runs/40685318583).
+No full-data run on a fresh machine, multi-node execution, or end-to-end failure injection
+has been validated. Spark temporary JAR cleanup warnings remain on the original Windows host.
 
 Data: [NYC TLC Trip Record Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page).
 Exact source URLs and SHA-256 hashes are in [config/sources.json](config/sources.json).

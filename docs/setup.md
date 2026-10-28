@@ -27,8 +27,9 @@ python -m taxi_project doctor
 Set `JAVA_HOME` to the JDK directory, not its `bin` subdirectory. Reopen the terminal after
 changing system environment variables. `requirements.txt` pins direct dependencies from the
 working environment. `requirements.lock.txt` is the complete observed package inventory,
-not a universal or hash-locked dependency resolution. A fresh environment installation has
-not yet been independently validated. Do not silently replace unavailable versions and
+not a universal or hash-locked dependency resolution. Fresh Ubuntu installation and all 12 tests, including the Spark/Delta fixture, passed
+in GitHub Actions on 2026-10-28. A complete full-data run on that new environment has
+not been validated. Do not silently replace unavailable versions and
 claim exact reproduction; record any replacements and rerun the tests.
 
 The repository is a source checkout. Its configuration and SQL are resolved relative to

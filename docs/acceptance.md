@@ -45,7 +45,10 @@ inside Spark; production Parquet processing and model rules were unchanged.
 The clean English repository retains historical reference evidence, excludes machine-local
 state, and generates Power BI files from each user's own full release. Original PBIX
 files and host logs remain in the author's working directory, outside this repository.
-The new GitHub Actions workflow has not yet run on GitHub.
+GitHub Actions completed successfully on 2026-10-28: 12 tests passed in 43.60 seconds
+on a fresh Ubuntu runner with Python 3.11 and Java 17, including the Spark/Delta fixture.
+Evidence: https://github.com/JoeHuang666/nyc-taxi-lakehouse/actions/runs/40685318583
+This verifies dependency installation and synthetic integration tests, not a new full-data run.
 
 Repository checks on 2026-10-26: 11 unit tests passed; the Spark integration fixture
 was skipped in this packaging pass. All four source hashes match the original inputs.
